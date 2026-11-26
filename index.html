@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Koleksi Buku</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>Koleksi Buku</h1>
+  <p class="subtitle">Rak buku pribadi &mdash; <span id="book-count">11</span> buku &middot; semua sudah dibaca</p>
+</header>
+
+<main>
+  <!-- Rak kipas 3D -->
+  <section class="shelf-section" aria-label="Rak buku">
+    <div class="shelf" id="shelf">
+      <button class="shelf-arrow left" id="shelf-prev" aria-label="Buku sebelumnya">&#8249;</button>
+      <div class="shelf-stage" id="shelf-stage"></div>
+      <button class="shelf-arrow right" id="shelf-next" aria-label="Buku berikutnya">&#8250;</button>
+    </div>
+    <div class="shelf-caption" id="shelf-caption"></div>
+    <p class="shelf-hint">Geser / drag raknya, atau ketuk cover samping untuk memindah. Ketuk buku di tengah untuk membaca.</p>
+  </section>
+
+  <!-- Grid + pencarian + filter -->
+  <section class="grid-section" aria-label="Daftar buku">
+    <div class="toolbar">
+      <input type="search" id="search" placeholder="Cari judul atau penulis&hellip;" autocomplete="off">
+      <div class="filters" role="group" aria-label="Filter status">
+        <button data-filter="all" class="active">Semua</button>
+        <button data-filter="selesai">Udah Baca</button>
+        <button data-filter="lagi">Lagi Baca</button>
+        <button data-filter="antre">Mau Baca</button>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>Tidak ada buku yang cocok.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Koleksi pribadi &mdash; baca saja. Untuk tambah / edit buku, lewat web Muse.</p>
+</footer>
+
+<!-- Reader layar penuh -->
+<div class="reader" id="reader" hidden role="dialog" aria-modal="true" aria-label="Pembaca buku">
+  <div class="reader-top">
+    <div class="reader-title">
+      <strong id="reader-book-title"></strong>
+      <span id="reader-book-author"></span>
+    </div>
+    <div class="reader-actions">
+      <a class="reader-btn" id="reader-download" href="#" download>Unduh PDF</a>
+      <button class="reader-btn" id="reader-close" aria-label="Tutup">&#10005;</button>
+    </div>
+  </div>
+  <div class="reader-stage" id="reader-stage">
+    <button class="reader-arrow left" id="reader-prev" aria-label="Halaman sebelumnya">&#8249;</button>
+    <div class="reader-slide-wrap" id="reader-slide-wrap">
+      <img id="reader-img" alt="Halaman buku" draggable="false">
+    </div>
+    <button class="reader-arrow right" id="reader-next" aria-label="Halaman berikutnya">&#8250;</button>
+  </div>
+  <div class="reader-bottom">
+    <div class="reader-progress"><div class="reader-progress-fill" id="reader-progress-fill"></div></div>
+    <span id="reader-page-label"></span>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

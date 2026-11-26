@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "best-loser-wins",
+    "title": "Best Loser Wins",
+    "author": "Tom Hougaard",
+    "year": 2022,
+    "status": "selesai",
+    "pages": 15
+  },
+  {
+    "slug": "art-of-laziness",
+    "title": "The Art of Laziness",
+    "author": "Library Mindset",
+    "year": null,
+    "status": "selesai",
+    "pages": 13
+  },
+  {
+    "slug": "let-them",
+    "title": "The Let Them Theory",
+    "author": "Mel Robbins",
+    "year": 2024,
+    "status": "selesai",
+    "pages": 13
+  },
+  {
+    "slug": "5-types-of-wealth",
+    "title": "The 5 Types of Wealth",
+    "author": "Sahil Bloom",
+    "year": 2025,
+    "status": "selesai",
+    "pages": 12
+  },
+  {
+    "slug": "courage-to-be-disliked",
+    "title": "The Courage to Be Disliked",
+    "author": "Ichiro Kishimi & Fumitake Koga",
+    "year": 2013,
+    "status": "selesai",
+    "pages": 13
+  },
+  {
+    "slug": "make-your-bed",
+    "title": "Make Your Bed",
+    "author": "William H. McRaven",
+    "year": 2017,
+    "status": "selesai",
+    "pages": 12
+  },
+  {
+    "slug": "art-of-spending-money",
+    "title": "The Art of Spending Money",
+    "author": "Morgan Housel",
+    "year": 2025,
+    "status": "selesai",
+    "pages": 13
+  },
+  {
+    "slug": "you-are-not-your-emotions",
+    "title": "You Are Not Your Emotions",
+    "author": "Modern Monk",
+    "year": 2025,
+    "status": "selesai",
+    "pages": 13
+  },
+  {
+    "slug": "get-good-at-money",
+    "title": "Get Good at Money",
+    "author": "Craig McKinnis",
+    "year": 2026,
+    "status": "selesai",
+    "pages": 9
+  },
+  {
+    "slug": "master-your-emotions",
+    "title": "Master Your Emotions",
+    "author": "Thibaut Meurisse",
+    "year": 2018,
+    "status": "selesai",
+    "pages": 13
+  },
+  {
+    "slug": "do-it-today",
+    "title": "Do It Today",
+    "author": "Darius Foroux",
+    "year": 2018,
+    "status": "selesai",
+    "pages": 14
+  }
+]
